@@ -1,8 +1,11 @@
-b = document.querySelector("button")
-a = document.qureySelector("text")
-c =  document.querySelector(".main")
-  b.addEventListner("click", showMessage),
+
+
+button1 = document.querySelector("button")
+input1= document.querySelector("input")
+output1 =  document.querySelector(".output")
+  button1.addEventListner("click", showMessage)
   function showMessage(){
-    
- document.getElementById("main").innerHtml = "Welcome To Java Script"
+   let message= `Welcome ${input1.value} in the course of Java Script` 
+    output1.innerHTML= message
+    console.log(output1);
   }
