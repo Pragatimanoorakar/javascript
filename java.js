@@ -1,11 +1,8 @@
+button = document.querySelectorAll("button")
+input = document.querySelector("input")
 
-
-button1 = document.querySelector("button")
-input1= document.querySelector("input")
-output1 =  document.querySelector(".output")
-  button1.addEventListner("click", showMessage)
-  function showMessage(){
-   let message= `Welcome ${input1.value} in the course of Java Script` 
-    output1.innerHTML= message
-    console.log(output1);
-  }
+function display(){
+document.getElementById("main").innerHTML=`Hi pragati, you give tip of Rs ${input.value * 0.1}`
+}
+function display1(){
+document.getElementById("main").innerHTML="Heyy learners welcome in the world of coders "}

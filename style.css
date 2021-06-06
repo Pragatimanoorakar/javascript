@@ -1,7 +1,22 @@
-body{
-    background:#d851b6;
-   color:yellow;
-   border-radius: 5px;
-   text-align:center;
 
-}
+body{
+    
+    background:black;
+    color:pink;
+    text-align:center;
+    background-image: url("https://images.pexels.com/photos/4946809/pexels-photo-4946809.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+    }
+  
+  .btn1{
+   border: none;
+    background-color:#264653;
+    text-decoration:none;
+    text-align:center;
+    padding: 5px;
+  
+    border-radius:4px;
+    font-family:	Times New Roman Georgia Garamond;
+    border-bottom:  2px solid ;
+    cursor:true;
+  }
+  
